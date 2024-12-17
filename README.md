@@ -112,7 +112,7 @@ Pictures of the setup are shown below:
 Pictures of the results from the terminal are shown below:
 
 
-![Starting Screen.](firstscreen.png)
+![Starting Screen.](images/firstscreen.png)
 
 ![Final Result after inputting from the keypad](adding.png)
 
