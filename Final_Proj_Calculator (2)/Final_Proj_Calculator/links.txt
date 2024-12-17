@@ -1,0 +1,12 @@
+ECE 425 Final Project Full Implementation Video:
+
+This link shows the full implementation of the calculator,
+including each operation and final results.
+
+https://youtu.be/W2aIZn-7rf0
+
+ECE 425 Final Project Clear Screen:
+
+This link shows the clear screen feature of the calculator.
+
+https://youtu.be/OH64Lva-fgg
