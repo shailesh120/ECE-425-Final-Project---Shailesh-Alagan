@@ -61,37 +61,24 @@ The hardware and software components were combined to achieve a functional and r
 
 The block diagram of this project is as follows:
 
-![Image Description](Final_Proj_Calculator/images/Block_Diagram.JPG)
+![Block Diagram](images/Block_Diagram.JPG)
 
 
-
-
-
-
-
-Components Used
+## Components Used
 The components are as follows:
 
-Component
-Description
-TM4C123GH6PM Microcontroller
-The central processing unit for the project.
-4x4 Membrane Keypad
-External keypad for entering numbers and operators.
-Serial Terminal Software (TeraTerm)
-Displays inputs, operations, and results.
-Keil µVision IDE
-Software used for coding, compiling, and debugging.
-Embedded C
-To program the microcontroller.
-GPIO
-Used to detect input from the keypad, as well as initializing other peripherals.
-UART
-Enables serial communication to display results to the terminal.
-SysTick Timer
-Used for debouncing or time delays.
-5V USB Power
-Provides power to microcontroller and peripherals.
+
+| **Component**                    | **Description**                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------|
+| TM4C123GH6PM Microcontroller     | The central processing unit for the project.                                  |
+| 4x4 Membrane Keypad              | External keypad for entering numbers and operators.                           |
+| Serial Terminal Software (TeraTerm) | Displays inputs, operations, and results.                                     |
+| Keil µVision IDE                 | Software used for coding, compiling, and debugging.                           |
+| Embedded C                       | To program the microcontroller.                                               |
+| GPIO                             | Used to detect input from the keypad and initialize other peripherals.        |
+| UART                             | Enables serial communication to display results to the terminal.              |
+| SysTick Timer                    | Used for debouncing or time delays.                                           |
+| 5V USB Power                     | Provides power to **microcontroller** and peripherals.                        |
 
 
 
@@ -100,81 +87,68 @@ Provides power to microcontroller and peripherals.
 
 
 
-Pinout Used
+## Pinout Used
 
-Pins
-Connection
-PD0
-Row 1 (Keypad)
-PD1
-Row 2 (Keypad)
-PD2
-Row 3 (Keypad)
-PD3
-Row 4 (Keypad)
-PA2
-Column 1 (Keypad)
-PA3
-Column 2 (Keypad)
-PA4
-Column 3 (Keypad)
-PA5
-Column 4 (Keypad)
-PA1
-Transmit (UART)
-PA0
-Receive (UART)
+| **Pins** | **Connection**            |
+|----------|---------------------------|
+| PD0      | Row 1 (Keypad)            |
+| PD1      | Row 2 (Keypad)            |
+| PD2      | Row 3 (Keypad)            |
+| PD3      | Row 4 (Keypad)            |
+| PA2      | Column 1 (Keypad)         |
+| PA3      | Column 2 (Keypad)         |
+| PA4      | Column 3 (Keypad)         |
+| PA5      | Column 4 (Keypad)         |
+| PA1      | Transmit (UART)           |
+| PA0      | Receive (UART)            |
 
 
-Analysis and Results
+
+## Analysis and Results
+
 Pictures of the setup are shown below:
-
-
-
-
-
-
-
-
-
 
 
 Pictures of the results from the terminal are shown below:
 
 
-Starting Screen.
+![Starting Screen.](firstscreen.png)
+
+![Final Result after inputting from the keypad](adding.png)
 
 
-Final result after inputting from the keypad.
-
-
-Screen Cleared.
+![Screen Cleared.](clear.png)
 
 We had a few issues while making this project. Some include the following:
 
-Not being able to make the external keypad fully functional. This resulted in having to use the EduBase Board keypad.
-Interrupts weren't working fully, which resulted in having to use states while detecting buttons.
-Since the keypad wasn't working fully, more operations (such as square root, exp) were not able to be made functional.
-Not being able to fully implement floating point numbers.
-Since states were used, to reset the calculator, the RESET button must be pressed on the microcontroller.
+- Not being able to make the external keypad fully functional. This resulted in having to use the EduBase Board keypad.
+- Interrupts weren't working fully, which resulted in having to use states while detecting buttons.
+- Since the keypad wasn't working fully, more operations (such as square root, exp) were not able to be made functional.
+- Not being able to fully implement floating point numbers.
+- Since states were used, to reset the calculator, the RESET button must be pressed on the microcontroller.
+
 Video Links:
-ECE 425 Final Project Full Implementation Video:
+
+- ECE 425 Final Project Full Implementation Video:
 https://youtu.be/W2aIZn-7rf0
-ECE 425 Final Project Clear Screen:
+- ECE 425 Final Project Clear Screen:
 https://youtu.be/OH64Lva-fgg
-Conclusion
+
+## Conclusion
 Through the development of this project, we gained hands-on experience and a deeper understanding of several key concepts in embedded systems. The following are the key concepts and skills learned from the project:
-GPIO Configuration and Keypad Interfacing:
+- GPIO Configuration and Keypad Interfacing:
 Learned how to configure GPIO pins for both input and output operations to interface with a 4x4 keypad. By implementing the row-column scanning technique, we efficiently detected key presses and converted them into usable data for the calculator logic.
-UART Communication:
+- UART Communication:
 Working with the UART module from the lab provided valuable experience in configuring serial communication settings such as baud rate, stop bits, and data frame size. We also learned how to use UART to send and receive data between the microcontroller and a terminal, enabling real-time user interaction and debugging. Although we learned this in lab, doing this project further enhanced our understanding of UART.
-Embedded C Programming and Low-Level Hardware Interaction:
+- Embedded C Programming and Low-Level Hardware Interaction:
 We further enhanced our proficiency in Embedded C programming, including writing low-level code to directly configure microcontroller registers.
-Arithmetic Logic Implementation:
+- Arithmetic Logic Implementation:
 I learned how to implement the core arithmetic operations (addition, subtraction, multiplication, and division) and manage sequential inputs to maintain operands, operators, and results. 
-Debugging and Testing:
+- Debugging and Testing:
 By using UART for output, we were able to debug the system in real-time, testing individual components and ensuring reliability. This improved our problem-solving skills and ability to troubleshoot embedded systems.
-Bibliography	
-Keypad Driver, Professor Nanas https://github.com/csun-fall24-ece-425/ECE425_Keypad_Example
+
+## Bibliography	
+- Keypad Driver, Professor Nanas 
+https://github.com/csun-fall24-ece-425/ECE425_Keypad_Example
 
 
