@@ -57,14 +57,14 @@ The hardware, software, and peripherals used are listed in the table below:
 The hardware and software components were combined to achieve a functional and reliable arithmetic calculator. The TM4C123GH6PM microcontroller effectively utilizes GPIO for keypad interfacing, UART for communication, and interrupts for efficient input handling to meet the project objectives.
 
 
-## Block Diagram
+# Block Diagram
 
 The block diagram of this project is as follows:
 
 ![Block Diagram](./Final_Proj_Calculator_2/images/Block_Diagram.jpg)
 
 
-## Components Used
+# Components Used
 The components are as follows:
 
 
@@ -87,7 +87,7 @@ The components are as follows:
 
 
 
-## Pinout Used
+# Pinout Used
 
 | **Pins** | **Connection**            |
 |----------|---------------------------|
@@ -104,7 +104,7 @@ The components are as follows:
 
 
 
-## Analysis and Results
+# Analysis and Results
 
 Pictures of the setup are shown below:
 
@@ -140,7 +140,7 @@ https://youtu.be/W2aIZn-7rf0
 - ECE 425 Final Project Clear Screen:
 https://youtu.be/OH64Lva-fgg
 
-## Conclusion
+# Conclusion
 Through the development of this project, we gained hands-on experience and a deeper understanding of several key concepts in embedded systems. The following are the key concepts and skills learned from the project:
 - GPIO Configuration and Keypad Interfacing:
 Learned how to configure GPIO pins for both input and output operations to interface with a 4x4 keypad. By implementing the row-column scanning technique, we efficiently detected key presses and converted them into usable data for the calculator logic.
@@ -153,7 +153,7 @@ I learned how to implement the core arithmetic operations (addition, subtraction
 - Debugging and Testing:
 By using UART for output, we were able to debug the system in real-time, testing individual components and ensuring reliability. This improved our problem-solving skills and ability to troubleshoot embedded systems.
 
-## Bibliography	
+# Bibliography	
 - Keypad Driver, Professor Nanas 
 https://github.com/csun-fall24-ece-425/ECE425_Keypad_Example
 
