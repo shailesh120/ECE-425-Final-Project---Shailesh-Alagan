@@ -40,9 +40,8 @@ The system processes sequential inputs in arrays and maintains states for operan
 - Row-Column Scanning Technique:
 To detect keypresses on the 4x4 keypad, a row-column scanning algorithm is applied, provided by the professor, which efficiently identifies the pressed key.
 
-The hardware, software, and peripherals used are listed in the table below:
 
-## Components Used
+The hardware, software, and peripherals used are listed in the table below:
 
 | **Hardware**                   | **Software**                    | **Peripherals**       |
 |--------------------------------|---------------------------------|-----------------------|
@@ -52,6 +51,7 @@ The hardware, software, and peripherals used are listed in the table below:
 | TeraTerm Terminal Software     | TM4C123GH6PM Startup Files      |                       |
 | Power Supply (e.g., 5V via USB)|                                 |                       |
 | EduBase Keypad                 |                                 |                       |
+
 
 
 The hardware and software components were combined to achieve a functional and reliable arithmetic calculator. The TM4C123GH6PM microcontroller effectively utilizes GPIO for keypad interfacing, UART for communication, and interrupts for efficient input handling to meet the project objectives.
@@ -109,17 +109,21 @@ The components are as follows:
 Pictures of the setup are shown below:
 
 ![Setup with Keypad.](./Final_Proj_Calculator_2/images/IMG_2994.jpg)
+This shows the full setup with the keypad.
 
 ![Keypad.](./Final_Proj_Calculator_2/images/IMG_2995.jpg)
+This shows just the keypad.
 
 Pictures of the results from the terminal are shown below:
 
 ![Starting Screen.](./Final_Proj_Calculator_2/images/firstscreen.png)
+This shows the starting screen.
 
 ![Final Result after inputting from the keypad](./Final_Proj_Calculator_2/images/adding.png)
-
+This shows the final result after inputting all values from the keypad.
 
 ![Screen Cleared.](./Final_Proj_Calculator_2/images/clear.png)
+This shows the screen once we hit the clear button.
 
 We had a few issues while making this project. Some include the following:
 
