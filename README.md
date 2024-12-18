@@ -61,7 +61,7 @@ The hardware and software components were combined to achieve a functional and r
 
 The block diagram of this project is as follows:
 
-![Block Diagram](images/Block_Diagram.JPG)
+![Block Diagram](./Final_Proj_Calculator_2/images/Block_Diagram.jpg)
 
 
 ## Components Used
@@ -108,16 +108,18 @@ The components are as follows:
 
 Pictures of the setup are shown below:
 
+![Setup with Keypad.](./Final_Proj_Calculator_2/images/IMG_2994.jpg)
+
+![Keypad.](./Final_Proj_Calculator_2/images/IMG_2995.jpg)
 
 Pictures of the results from the terminal are shown below:
 
+![Starting Screen.](./Final_Proj_Calculator_2/images/firstscreen.png)
 
-![Starting Screen.](images/firstscreen.png)
-
-![Final Result after inputting from the keypad](adding.png)
+![Final Result after inputting from the keypad](./Final_Proj_Calculator_2/images/adding.png)
 
 
-![Screen Cleared.](clear.png)
+![Screen Cleared.](./Final_Proj_Calculator_2/images/clear.png)
 
 We had a few issues while making this project. Some include the following:
 
